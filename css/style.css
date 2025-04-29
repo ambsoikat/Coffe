@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+nav {
+    background-color: black;
+}
+.card-body h5 {
+    font-weight: bolder;
+    font-size: larger;
+    text-transform: uppercase;
+}
+.card-text {
+    font-size: 15px;
+    font-weight: normal;
+}
+.coffee-card {
+    transition: transform 0.2s;
+}
+.coffee-card:hover {
+    transform: scale(1.05);
+}
+.coffee-img {
+    height: 200px;
+    object-fit: cover;
+}
+.amount del {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+.about-card {
+    transition: transform 0.2s;
+}
+.about-card:hover {
+    transform: scale(1.05);
+}
+.about-card img {
+    height: 250px;
+    object-fit: cover;
+}
+.reviews-card {
+    transition: transform 0.2s;
+}
+.reviews-card:hover {
+    transform: scale(1.05);
+}
+.reviews-card img {
+    height: 250px;
+    object-fit: cover;
+}
+.carousel-item img {
+    height: 350px;
+}
+.contact .form-control{
+    height: 2rem;
+    font-size: 0.900rem;
+    font-weight: 700;
+    
+}
+.contact .input-group-text {
+    height: 2rem;
+}
+.contact .form-control:hover,
+.contact .form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: black;
+}
+.footer {
+    background: black;
+}
+.footer .footer-link {
+    font-size: 1rem !important;
+    color: white !important;
+    padding: 0 1.875rem !important;
+    text-decoration: none !important;
+}
+.footer .footer-icon i {
+    font-size: 1.5rem !important;
+    color: white !important;
+    padding: 0 1rem !important;
+}
+.discount-badge {
+    position: absolute;
+    top: 6px;
+    left: -13px;
+    background: red;
+    color: white;
+    padding: 0.2rem 0.3rem;
+    font-size: 0.8rem;
+  }
